@@ -4,12 +4,64 @@
     box-sizing: border-box;
     font-family: Arial;
 }
-#div1{
+#div-logo{
     width: 100%;
-    height: 50px;
-    background-color: aqua;
+    min-height: 50px;
+    background-color: lightgreen;
     padding-left: 2%;
-    padding-right: 2%;
-    border-left: 20px solid black;
-    border-right: 20px solid black;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+#nav-div{
+    width: 100%;
+    min-height: 30px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 30px ;
+    margin-bottom: 10px;
+}
+#header-div{
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 100px; 
+    margin-bottom: 10px;
+}
+#main-div{
+    width: 100%;
+    /* min-height: 400px; */
+    /* background-color: limegreen; */
+    margin-bottom: 10px;
+}
+.clearFix::after{
+    content: "";
+    display: block;
+    clear:both
+
+}
+#sidebar-div{
+    width: 20%;
+    min-height: 400px;
+    background-color: lightgreen;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+
+}
+#body-div{
+    width: 75%;
+    min-height: 400px;
+    background-color: lightgreen;
+    float: right;
+    text-align: center;
+    line-height: 400px;
+}
+#footer-div{
+    width: 100%;
+    min-height:50px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 50px;
+    
 }
