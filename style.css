@@ -63,5 +63,9 @@
     background-color: lightgreen;
     text-align: center;
     line-height: 50px;
-    
+
+}
+#wrapper-div{
+    width: 80%;
+    margin: auto;
 }
