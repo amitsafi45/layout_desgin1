@@ -1,4 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+#div1{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
 }
